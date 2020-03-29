@@ -23,40 +23,42 @@ html, body {
 	color: #0F0;
 }
 
-a {
-	color: #b69e40; outline: 0;
+body {
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-size: 20px;
+  color: #333333;
 }
-
-a:hover {
-	text-decoration: none;
-}
-
-a:active, a:focus {
-	color: #b69e40;
-	border: none;
-	text-decoration: none;
-}
-
-button:focus { border: none; outline:none; }
-
 p {
-	color: #aeb5ba;
+  line-height: 1.5;
+  margin: 30px 0;
 }
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: Tahoma, Arial;
-	font-weight: 400;
+p a {
+  text-decoration: underline;
 }
-
-h1	{	font-size: 1.5em;
-	color: #ffffff;
-	background: #343537;
-	padding: 10px 8px;
-	float: left;
-	}
-	
-h2	{ font-size: 24px; color: #ffffff; }
-h3 {  text-align: center; font-size: 16px; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
+a {
+  color: #333333;
+}
+a:hover,
+a:focus {
+  color: #0085A1;
+}
+a img:hover,
+a img:focus {
+  cursor: zoom-in;
+}
+blockquote {
+  color: #777777;
+  font-style: italic;
+}
 /*img {
   	max-width: 100%;
   	height: auto;
