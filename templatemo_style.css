@@ -7,23 +7,6 @@ https://templatemo.com/tm-400-polygon
 */
 
 html, body {
-	font-family: Tahoma, Arial; 
-	padding: 0px; 
-	margin: 0px; 
-	color: #e7e7e7;
-	background: transparent;
-	font-size: 12px;
-}
-
-.blue {
-	color: #0CF;
-}
-
-.green {
-	color: #0F0;
-}
-
-body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
   color: #333333;
